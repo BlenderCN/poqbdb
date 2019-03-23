@@ -82,3 +82,15 @@ poqbdb文件夹示例目录树:
 
 
 ![](blender.png)
+
+Q&A
+
+关于gltf格式的问题:
+
+	目前只采用gltf的格式进行导入,关于gltf格式可以参考: 												       https://github.com/KhronosGroup/glTF,
+	可能有些人喜欢.obj或.fbx或其他格式的导入方式,只需要在脚本将bpy.ops.import_scene.gltf()	改为bpy.ops.import_scene.obj()或其他对应命令即可.
+
+关于bug或其他:
+
+	由于精力和能力有限,插件可能会出现一些bug,后期会逐渐改进,欢迎提issue和bug,敬请期待.
+
