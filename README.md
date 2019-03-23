@@ -13,6 +13,7 @@ blender 模型管理插件poqbdb(process or query by database的缩写)
 		|
 		|---__init__.py
 		|
+		|---draw_class.py
 		|---poqbdb.py
 
 只要你将你的模型以gltf格式放入poqbdb文件夹,就能自动在软件界面形成相应的按钮,到时候就能很方便通过一键生成你自己的模型
