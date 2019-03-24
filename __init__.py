@@ -1,6 +1,14 @@
+
+# <pep8 compliant>
+
+# ----------------------------------------------------------
+# Author: Fofight
+# ----------------------------------------------------------
+
+
 bl_info = {
     'name': 'poqbdb',
-    'description': 'process or query by database',
+    'description': 'poqbdb is process or query by database',
     'author': 'Fofight',
     'license': 'GPL',
     'version': (1, 0, 0),
@@ -15,15 +23,17 @@ bl_info = {
     }
 
 
-
+import os
+import subprocess
 from . import poqbdb
 
 
 
 
-
 def register():
+	subprocess.Popen(['python3',os.path.join(os.path.dirname(__file__), "draw_class.py"),'1','2'],stdin = subprocess.PIPE, stdout=subprocess.PIPE)
 	poqbdb.register()
+
 
 def unregister():
 	poqbdb.unregister()
