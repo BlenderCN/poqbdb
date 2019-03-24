@@ -1,4 +1,5 @@
 # poqbdb
+![](background.png)
 poqbdb is process or query by database
 
 blender 模型管理插件poqbdb(process or query by database的缩写)
@@ -96,3 +97,5 @@ Q&A
 
 
 插件模型来源于free3d.com,仅供学习
+
+安装教程[wiki](https://github.com/BlenderCN/poqbdb/wiki)
