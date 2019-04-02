@@ -33,12 +33,17 @@ Q&A
 
 关于gltf格式的问题:
 
-	目前只采用gltf的格式进行导入,关于gltf格式可以参考: 												       https://github.com/KhronosGroup/glTF,
-	可能有些人喜欢.obj或.fbx或其他格式的导入方式,只需要在脚本将bpy.ops.import_scene.gltf()	改为bpy.ops.import_scene.obj()或其他对应命令即可.
+* 目前只采用gltf的格式进行导入,关于gltf格式可以参考: https://github.com/KhronosGroup/glTF,
+
+* 可能有些人喜欢.obj或.fbx或其他格式的导入方式,只需要在脚本将bpy.ops.import_scene.gltf()	改为bpy.ops.import_scene.obj()或其他对应命令即可.
 
 关于bug或其他:
-	
-	由于精力和能力有限,插件可能会出现一些bug,后期会逐渐改进,欢迎提issue和bug,敬请期待.
+
+* poqbdb插件是模型集成插件[Learnbgame](https://github.com/BlenderCN/Learnbgame)的一部分,目前主要精力集中在Learnbgame的开发中,所以poqbdb的更新可能会有些缓慢,敬请期待
+
+* 目前插件在kali linux上开发,其他系统还未来得及测试,可能会出现系统不兼容问题,后期会改进,敬请期待.
+
+* 由于精力和能力有限,插件可能会出现一些bug,后期会逐渐改进,欢迎提issue和bug,敬请期待.
 
 
 插件模型来源于free3d.com,仅供学习
