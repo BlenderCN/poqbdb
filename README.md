@@ -23,61 +23,6 @@ blender 模型管理插件poqbdb(process or query by database的缩写)
 可能有些人喜欢.obj或.fbx或其他格式的导入方式,只需要在脚本
 将bpy.ops.import_scene.gltf()改为bpy.ops.import_scene.obj()或	其他对应命令即可.
 
-poqbdb文件夹示例目录树:
-
-	poqbdb
-	├── learnioc.glb
-	├── planets
-	│   ├── earth.glb
-	│   ├── jupiter.glb
-	│   └── moon.glb
-	└── species
-	    ├── animal
-	    │   ├── armadillo.glb
-	    │   ├── bear.glb
-	    │   ├── bison.glb
-	    │   ├── cow.glb
-	    │   ├── crab.glb
-	    │   ├── crocodile.glb
-	    │   ├── crow.glb
-	    │   ├── deer.glb
-	    │   ├── dog.glb
-	    │   ├── dolphin.glb
-	    │   ├── duck.glb
-	    │   ├── elephant.glb
-	    │   ├── elk.glb
-	    │   ├── fish.glb
-	    │   ├── frog.glb
-	    │   ├── giraffe.glb
-	    │   ├── goat.glb
-	    │   ├── goldfish.glb
-	    │   ├── hawk.glb
-	    │   ├── horse.glb
-	    │   ├── kangaroo.glb
-	    │   ├── monkey.glb
-	    │   ├── muskrat.glb
-	    │   ├── ostrich.glb
-	    │   ├── parrot.glb
-	    │   ├── penguin.glb
-	    │   ├── pheasant.glb
-	    │   ├── pig.glb
-	    │   ├── rabbit.glb
-	    │   ├── racoon.glb
-	    │   ├── seahorse.glb
-	    │   ├── sealion.glb
-	    │   ├── shrimp.glb
-	    │   ├── snake.glb
-	    │   ├── spider.glb
-	    │   ├── swan.glb
-	    │   ├── turtle.glb
-	    │   └── walrus.glb
-	    ├── learnioc.glb
-	    ├── micrabe
-	    │   ├── coli.glb
-	    │   └── phage.glb
-	    └── plant
-	        ├── sunflower.glb
-	        └── tulip.glb
 
 插件UI
 
@@ -92,7 +37,7 @@ Q&A
 	可能有些人喜欢.obj或.fbx或其他格式的导入方式,只需要在脚本将bpy.ops.import_scene.gltf()	改为bpy.ops.import_scene.obj()或其他对应命令即可.
 
 关于bug或其他:
-
+	
 	由于精力和能力有限,插件可能会出现一些bug,后期会逐渐改进,欢迎提issue和bug,敬请期待.
 
 
